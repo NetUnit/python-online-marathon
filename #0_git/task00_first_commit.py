@@ -16,7 +16,8 @@ class FirstCommit():
         self.choice = choice
 
     def call_option(self, inquiry):
-        return f'{self.option_one}' if inquiry in self.choice else f'{self.option_two}'
+        #return f'{self.option_one}' if inquiry in self.choice else f'{self.option_two}'
+        return '%s' % (self.option_one) if inquiry in self.choice else '%s' % (self.two)
 
 
 instance = FirstCommit()
