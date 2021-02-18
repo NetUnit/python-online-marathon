@@ -26,6 +26,7 @@
     to false. It should return "game restarted".
 '''
 
+
 # VAR1
 class Gallows:
 
@@ -104,7 +105,8 @@ print(my_gallows.words)
 
 # block3 - not independent
 ####
-my_gallows.restart()  # SHOULD BE RESTARTED OTHERWISE APLLE WILL NOT GET TO WORDS  # (list is not empty, words should be accessible wfter game over)
+my_gallows.restart()  # SHOULD BE RESTARTED OTHERWISE APLLE WILL NOT GET TO WORDS  
+# (list is not empty, words should be accessible after game over)
 ####
 # # # Words cannot have already been said.
 my_gallows.play('apple')  # NOT OK ## ERROR
