@@ -215,3 +215,58 @@ my_gallows.play('corn')  # OK --> game_over
 print(my_gallows.words)  # NOT OK -->['apple', 'ear', 'rhino']
 my_gallows.restart()  # OK --> game restarted
 print(my_gallows.words)  # OK ---> []
+
+
+'''
+try:
+    if '1'!=1:
+        raise('some error')
+    else:
+        print('some error has not occured')
+
+except 'someError':
+    print('someError has occured')
+'''
+
+'''
+##8
+def function(x):
+    x.remove('5')
+
+x = 'rest5'
+print(type(x))
+print(function(x))
+'''
+'''
+##10
+def foo():
+    try:
+        return 1
+    finally:
+        return 2
+
+k = foo()
+print(k)
+
+##11 
+print('1'==1)
+'''
+
+'''
+#14
+print('Hello' + 2 + 'World')
+'''
+
+
+##3
+def function(x):
+    return x ** 2
+
+x = '12'
+try:
+    print(function(x))
+except (TypeError, ValueError) as err:
+    print('Oops')
+
+##1
+print('Hello' + str(2) + 'World')
