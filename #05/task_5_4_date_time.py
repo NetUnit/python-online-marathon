@@ -54,37 +54,37 @@ def day_of_week(day):
 
 # tests Soft Serve
 # test 1 - number in the range of digits
-day = 2
-print(day_of_week(day))  # + ok # Tuesday
+#day = 2
+#print(day_of_week(day))  # + ok # Tuesday
 
 # test 2 - number in the range of digits but str
-day = '2'
-print(day_of_week(day))  # + ok # Tuesday
+#day = '2'
+#print(day_of_week(day))  # + ok # Tuesday
 
 # test 3 - number out of range of digits
-day = 8
+#day = 8
 # + ok # There is no such day of the week! Please try again.
-print(day_of_week(day))
+#print(day_of_week(day))
 
 # test 4 - number out of range of digits and str
-day = '8'
+#day = '8'
 # + ok # There is no such day of the week! Please try again.
-print(day_of_week(day))
+#print(day_of_week(day))
 
 # test 5 - digit out of range (zero)
-day = 0
+#day = 0
 # + ok # There is no such day of the week! Please try again.
-print(day_of_week(day))
+#print(day_of_week(day))
 
 # test 6 - name of the day ValueError
-day = "Monday"
-print(day_of_week(day))  # + ok # You did not enter a number...
+#day = "Monday"
+#print(day_of_week(day))  # + ok # You did not enter a number...
 
 # test 7 - in a case of list
 # day = [1, 2, 3][0]   # Monday # + ok # Monday
-day = [1, 2, 3]  # TypeError # + ok # You did not enter a number...
-print(day_of_week(day))
+#day = [1, 2, 3]  # TypeError # + ok # You did not enter a number...
+#print(day_of_week(day))
 
 # test 8 - in case of value is an object
-day = y  # instance of the class A  + ok
-print(day_of_week(day))
+#day = y  # instance of the class A  + ok
+#print(day_of_week(day))

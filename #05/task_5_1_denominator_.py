@@ -40,13 +40,13 @@ def divide(numerator, denominator):
 # tests Soft serve:
 
 # 1 divide(8, 16)            #output: "Result is 0.5"
-print(divide(8, 16))        # ok +
+#print(divide(8, 16))        # ok +
 
 # 2 divide (5, 0)            #output: "Oops, 5 / 0 denominator, division by zero is error!!!"
-print(divide(5, 0))         # ok +
+#print(divide(5, 0))         # ok +
 
 # 3 divide_number("25", 5)   #output:   "Value Error! You did not enter a number!" ### shuold be divide() instead of divide_number()
-print(divide("25", 5))      # ok +
+#print(divide("25", 5))      # ok +
 
 # 4 divide_number("abc", 9)  #output:    "Value Error! You did not enter a number!"
-print(divide("abc", 9))
+#print(divide("abc", 9))

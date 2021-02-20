@@ -4,7 +4,7 @@ class ToSmallNumberGroupError(Exception):
     ''' 
         if there will be an attribute in __str__() 
         it obviously expects a string to be returned, 
-        so we nned to make sure not to send any other data types
+        so we need to make sure not to send any other data types
         here we didn't put nay kind of it, however insert ready-made to the body
 
         <class 'float'> is posiible as a parameter too
@@ -44,18 +44,18 @@ def check_number_group(number):
 
 
 # checking float number
-number = 25.0  # ok +           #output:
-print(check_number_group(number))
+#number = 25.0  # ok +           #output:
+#print(check_number_group(number))
 
 # tests Soft serve:
 # ok +             #output  "We obtain error: Number of your group can't be less than 10
-print(check_number_group(4))
+#print(check_number_group(4))
 
 # ok               #output:     "Number of your group 59 is valid"
-print(check_number_group(59))
+#print(check_number_group(59))
 
 # ok             #output:    "Number of your group 25 is valid"
-print(check_number_group("25"))
+#print(check_number_group("25"))
 
 # ok           #output:     "You entered incorrect data. Please try again."
-print(check_number_group("abc"))
+#print(check_number_group("abc"))
