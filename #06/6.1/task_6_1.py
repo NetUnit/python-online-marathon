@@ -2,55 +2,6 @@ import json
 from nltk import flatten
 
 
-'''
-    JSON - JavaScriptObjectNotation
-
-    1.json:
-    [{"name": "user_1”, "password": "pass_1”},
-    {"name": "user_2”, "password": ["pass_1", "qwerty“]} ]
-    find("1.json", "password") returns ["pass_1", "qwerty"]
-
-    2.json:
-    [{"name": "user_1”, "credentials": {"username": "user_user”, "password": "1234qweQWE"}}, {"name": "user_2”, "password": ["pass_1 ", "qwerty "]}]
-    find("2.json", "password") returns ["1234qweQWE", "pass_1", "qwerty"]
-
-    3.json:
-    {"name": "user_1","credentials": {"username": "user_user","password": "1234qweQWE"}}
-    find("3.json", "password") returns ["1234qweQWE"]
-
-'''
-
-'''
-    1.json:
-    [
-        {"name": "user_1”, "password": "pass_1”},
-        {"name": "user_2”, "password": ["pass_1", "qwerty“]} 
-    
-    ]
-    ##### створити файл 1.json: з набором цих даних
-
-    #find("1.json", "password") returns ["pass_1", "qwerty"]
-
-
-    2.json:
-    [
-        {"name": "user_1”, "credentials": {"username": "user_user”, "password": "1234qweQWE"}},
-        {"name": "user_2”, "password": ["pass_1 ", "qwerty "]}
-    
-    ]
-    ##### створити файл 2.json: з набором цих даних
-
-    # find("2.json", "password") returns ["1234qweQWE", "pass_1", "qwerty"]
-
-    3.json:
-        {"name": "user_1","credentials": {"username": "user_user","password": "1234qweQWE"}}
-    
-    # find("3.json", "password") returns ["1234qweQWE"]
-    ##### створити файл 3.json: з набором цих даних
-
-'''
-
-
 def find(file, key):
     """Recursion for fetching values from nested JSON."""
 

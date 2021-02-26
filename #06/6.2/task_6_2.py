@@ -1,6 +1,17 @@
 import json
 
 
+'''
+    I did'nt know how many files will be merged
+    to each other, so that i had considered arbitrary
+    quanity*. 
+
+    This peace of code may be ugly but can hadlle
+    mumerous files, show matches, count them and 
+    remove blocks with similar items.
+'''
+
+
 class NoFileToProcess(Exception):
 
     message = "root - ERROR - File doesn't exists"
