@@ -1,0 +1,1 @@
+"[\n  {\n    \"name\": \"Bob1\",\n    \"rate\": 25,\n    \"languages\": [\n      \"French\"\n    ]\n  },\n  {\n    \"name\": \"Bob2\",\n    \"rate\": 0.78,\n    \"languages\": [\n      \"English\",\n      \"French\"\n    ]\n  },\n  {\n    \"name\": \"Bob3\",\n    \"rate\": 78,\n    \"languages\": [\n      \"Germany\"\n    ]\n  }\n]"

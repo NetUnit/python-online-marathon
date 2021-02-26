@@ -1,4 +1,4 @@
-def studying_hours(a):
+def order(a):
 
     asc = 0
     desc = 1
@@ -14,7 +14,8 @@ def studying_hours(a):
 # checkslit
 a = [6, 20, 160, 420, 550] # asc
 b = a[::-1] # desc
-print(order([1, 7, 0, 4, 8, 1])) #rand
+print(order(a)) #rand
+#print(order([1, 7, 0, 4, 8, 1])) #rand
 
 
 

@@ -40,7 +40,8 @@ def check_number_group(number):
             return "Number of your group %d is valid" % number
 
     except ToSmallNumberGroupError as err:
-        return f'{err}'
+        return type(err)
+        #return f'{err}'
 
 
 # checking float number
@@ -52,7 +53,7 @@ def check_number_group(number):
 #print(check_number_group(4))
 
 # ok               #output:     "Number of your group 59 is valid"
-#print(check_number_group(59))
+print(check_number_group(-59))
 
 # ok             #output:    "Number of your group 25 is valid"
 #print(check_number_group("25"))

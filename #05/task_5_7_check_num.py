@@ -55,4 +55,4 @@ def check_positive(number):
 
 # test 5
 # You input negative number: -38. Try again. # mine ✓
-# print(check_positive("-38"))
+print(check_positive("-38"))
