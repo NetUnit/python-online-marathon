@@ -29,7 +29,7 @@ def check_odd_even(number):
 
 # case2 number is str but all r digits
 # when not converting x to int - raise TypeError
-# print(check_odd_even('10')) # + ok
+print(check_odd_even('10')) # + ok
 
 # case when incorrect data is set up to the list
 # print(check_odd_even('just a string')) # + ok # You entered not a number.
