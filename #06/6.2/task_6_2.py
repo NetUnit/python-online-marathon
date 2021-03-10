@@ -61,6 +61,7 @@ def parse_user(output_file, *input_files):
 
                                     # removing the whole item when a match
                                     data.remove(dic)
+                                    return data
                                     data = sorted(
                                         data, key=lambda i: i['name'])
 
