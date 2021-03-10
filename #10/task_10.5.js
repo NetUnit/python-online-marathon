@@ -30,9 +30,9 @@
 
 
     NOTE: 
-        c = Number.isNaN('sd') // +++ false --- строга рівність на NaN;
-            якщо не число - завжди false
-        z = isNaN('sd') // False +++ true -- рівність на нечисло;
+        c = Number.isNaN('sd') // +++ false --- strict equality that checks whether value is NaN;
+            if not integer that always false
+        z = isNaN('sd') // False +++ true -- equality wheteher integer/not integer
 
         typeof 3.14 === 'number'; BETTER TO USE THIS OPTION HERE;
 
