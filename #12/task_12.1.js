@@ -57,4 +57,3 @@ function getMin3(arr) {
 
 
 console.log(getMin3([77, 88, -15, 0, 49, -52.5, 87, 1]))
-
